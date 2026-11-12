@@ -9,11 +9,11 @@
 <body>
 <main>
 <header><img src="icon.png" alt=""><h1>Privacy Policy</h1></header>
-<p class="muted">Carmeo · effective 12 November 2026 · version 2026-11-12 (Android version, Google Play testing)</p>
+<p class="muted">Carmeo · effective 12 November 2026 · version 2026-11-12 (iOS and Android; Omoda / Jaecoo support, error reports)</p>
 <p class="lang"><a href="#en">English</a> · <a href="#hu">Magyar</a></p>
 
 <div class="note"><strong>Unofficial app.</strong> Carmeo is not made, affiliated with or endorsed by Chery Automobile Co., Ltd., Chery Europe GmbH, Omoda Motors Spain, S.L. (publisher of the CHERY-Europe app), O&amp;J Automotive Netherlands B.V. or any of their affiliates. Chery and model names
-are trademarks of their owners. The app connects to <em>your own</em> Chery account on your behalf.</div>
+are trademarks of their owners, as are Omoda and Jaecoo. The app connects to <em>your own</em> Chery or OMODA | JAECOO account on your behalf.</div>
 
 <section id="en">
 <h2>1. Who is responsible (controller)</h2>
@@ -23,12 +23,13 @@ are trademarks of their owners. The app connects to <em>your own</em> Chery acco
 <table>
 <tr><th>Data</th><th>Purpose</th><th>Legal basis (GDPR)</th></tr>
 <tr><td>Account: e-mail address, password (stored only as a hash by our database provider), optional name, the date you accepted the terms. With Sign in with Apple: the e-mail Apple shares (it can be a private relay address).</td><td>Your account, sign-in, password reset</td><td>Contract – Art. 6(1)(b)</td></tr>
-<tr><td>Chery connection: a masked hint of your Chery login (e.g. <code>z***@g***.com</code>), the session tokens of your Chery account and your vehicle control PIN – <strong>encrypted</strong> (AES-256-GCM, key only on our server). The VIN is stored only as a one-way hash.</td><td>Reading your car's data and sending the commands you ask for</td><td>Contract – Art. 6(1)(b)</td></tr>
-<tr><td>Vehicle data from your Chery account: lock and door status, battery and fuel level, range, odometer, charging, climate, tyre pressures, <strong>GPS position</strong>, and what the app derives from them: trips (start / end places and times, distance), charging and refuelling logs, timeline events, notifications, statistics.</td><td>The app's features (status, history, alerts, pre-conditioning, widgets, Live Activities on iPhone, live notifications on Android)</td><td>Contract – Art. 6(1)(b)</td></tr>
+<tr><td>Car connection (Chery, or Omoda / Jaecoo): a masked hint of your login (e.g. <code>z***@g***.com</code>), the session tokens of your car account, your vehicle control PIN and, for Omoda / Jaecoo, the account's country code – <strong>encrypted</strong> (AES-256-GCM, key only on our server). The VIN is stored only as a one-way hash. Omoda / Jaecoo: if you connect with your account password, it is used once to sign in and deleted at once – it is <strong>never stored</strong>.</td><td>Reading your car's data and sending the commands you ask for</td><td>Contract – Art. 6(1)(b)</td></tr>
+<tr><td>Vehicle data from your car account (Chery or OMODA | JAECOO): lock and door status, battery and fuel level, range, odometer, charging, climate, tyre pressures, <strong>GPS position</strong>, and what the app derives from them: trips (start / end places and times, distance), charging and refuelling logs, timeline events, notifications, statistics.</td><td>The app's features (status, history, alerts, pre-conditioning, widgets, Live Activities on iPhone, live notifications on Android)</td><td>Contract – Art. 6(1)(b)</td></tr>
 <tr><td>Your settings: places you save (e.g. Home with coordinates), departure time and comfort settings, service data, document expiry dates you enter.</td><td>Reminders, labels, automatic pre-conditioning</td><td>Contract – Art. 6(1)(b)</td></tr>
 <tr><td>Device data: push notification tokens (Apple Push Notification service on iPhone, Firebase Cloud Messaging on Android), device name, a random widget token (stored only as a hash).</td><td>Notifications, widgets, Control Center buttons (iPhone), Quick Settings tiles (Android), Live Activities / live notifications</td><td>Contract – Art. 6(1)(b)</td></tr>
 <tr><td>Testing: if you join a test version (Apple TestFlight or Google Play testing), the e-mail address of your Apple ID or Google account, which we add to the testers list or which you use to join the testers' Google Group, and any feedback you send us.</td><td>Inviting you to the test, giving you access, handling your feedback</td><td>Contract – Art. 6(1)(b) (you asked to take part)</td></tr>
 <tr><td>Server logs (no VIN, logins masked).</td><td>Security, troubleshooting</td><td>Legitimate interest – Art. 6(1)(f)</td></tr>
+<tr><td>Error reports from the app: error message and technical trace, app and operating system version, platform, screen name, your account id.</td><td>Finding and fixing bugs</td><td>Legitimate interest – Art. 6(1)(f)</td></tr>
 </table>
 <p>We do <strong>not</strong> sell data, show ads, use analytics or tracking SDKs, or build profiles. The app has no third-party advertising or analytics code.</p>
 
@@ -38,24 +39,26 @@ are trademarks of their owners. The app connects to <em>your own</em> Chery acco
 <table>
 <tr><th>Recipient</th><th>What for</th><th>Where</th></tr>
 <tr><td>Supabase Inc. (database, sign-in)</td><td>Stores your account and car data</td><td>EU – AWS Ireland (eu-west-1); US company: EU Standard Contractual Clauses</td></tr>
-<tr><td>Hetzner Online GmbH</td><td>Server that talks to Chery and sends notifications</td><td>Germany (Nuremberg)</td></tr>
+<tr><td>Hetzner Online GmbH</td><td>Server that talks to the car clouds (Chery, Omoda / Jaecoo) and sends notifications</td><td>Germany (Nuremberg)</td></tr>
 <tr><td>Brevo (Sendinblue SAS)</td><td>Sign-up and password e-mails</td><td>France (EU)</td></tr>
 <tr><td>Apple Inc.</td><td>iPhone: push notifications and Live Activities (the device token and the notification text, e.g. "Car left unlocked · Home"); Sign in with Apple if you use it; TestFlight if you join the iPhone test</td><td>USA – EU-US Data Privacy Framework / SCC</td></tr>
 <tr><td>Google Ireland Limited / Google LLC</td><td>Android: push notifications and live notifications through Firebase Cloud Messaging (the device token and the notification text, e.g. "Car left unlocked · Home"). Google Play distributes the app and runs the test (testers' e-mail addresses, Google Group membership); for your Google account and Google Play, Google is an independent controller and its own privacy policy applies. Firebase Analytics is not used.</td><td>EU / USA – EU-US Data Privacy Framework / SCC</td></tr>
 <tr><td>Open-Meteo</td><td>Weather for pre-conditioning: the car's or your Home's position, rounded to about 1 km</td><td>EU / Switzerland</td></tr>
 <tr><td>MapTiler AG</td><td>Map tiles (map data © OpenStreetMap contributors): your device loads them directly, so MapTiler sees your IP address and the map area</td><td>Switzerland (adequacy decision)</td></tr>
 <tr><td>The operator of the Chery Europe connected-car service (CHERY-Europe app – per the App Store: Omoda Motors Spain, S.L., Spain; Chery Europe GmbH, Germany)</td><td>Your car's data comes from and your commands go to your Chery Europe account. The operator is an independent controller; its own privacy policy applies.</td><td>Chery's systems</td></tr>
+<tr><td>The operator of the OMODA | JAECOO connected-car service in Europe (OMODA JAECOO app – per the App Store: Omoda Motors Spain, S.L., Spain)</td><td>Only if you connect an Omoda or Jaecoo: your car's data comes from and your commands go to your OMODA | JAECOO account. The operator is an independent controller; its own privacy policy applies.</td><td>The operator's systems (EU service)</td></tr>
 <tr><td>GitHub Inc.</td><td>Hosts this web page (sees visitors' IP addresses)</td><td>USA – DPF / SCC</td></tr>
 <tr><td>Cloudflare Inc.</td><td>Domain name (DNS) and forwarding of e-mails sent to support@pzstm.app</td><td>USA / EU – DPF / SCC</td></tr>
 </table>
-<p>If your car type has no built-in picture, the app loads your car's picture from the address the Chery cloud provides; that server then sees your IP address.</p>
+<p>If your car type has no built-in picture, the app loads your car's picture from the address the car cloud provides; that server then sees your IP address.</p>
 
 <h2>4. How long we keep data</h2>
 <ul>
 <li>Account, car data and logs: until you delete them or your account (Settings → Account → <em>Delete account</em>). Deletion is immediate and removes all data linked to the account.</li>
 <li>Raw car status records (taken every few minutes, including the car's position): 12 months, then deleted automatically. Trips, charging sessions, refuels and the timeline stay until you delete them.</li>
 <li>Server logs: up to 30 days. Database backups (if enabled by our provider): up to 7 days.</li>
-<li>Pending connection codes and notification button tokens: deleted after use or within 1 day / 12 hours.</li>
+<li>Connection codes, passwords and PINs you type to connect your car: deleted as soon as our server has read them (at the latest within 1 day). Notification button tokens: within 12 hours.</li>
+<li>Error reports from the app: 30 days, then deleted automatically.</li>
 </ul>
 
 <h2>5. Your rights</h2>
@@ -63,7 +66,7 @@ are trademarks of their owners. The app connects to <em>your own</em> Chery acco
 <p>You can complain to a data protection authority, in Hungary: Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH), 1055 Budapest, Falk Miksa u. 9–11, <a href="https://naih.hu">naih.hu</a>.</p>
 
 <h2>6. Security</h2>
-<p>Encrypted connections everywhere; row-level security in the database (you can only read your own data); Chery tokens and PIN encrypted with a key that only the server has; passwords hashed; server reachable only with SSH keys; automatic security updates.</p>
+<p>Encrypted connections everywhere; row-level security in the database (you can only read your own data); car-account tokens and PIN encrypted with a key that only the server has; passwords hashed; server reachable only with SSH keys; automatic security updates.</p>
 
 <h2>7. Children</h2>
 <p>The app is not intended for people under 16.</p>
@@ -74,7 +77,7 @@ are trademarks of their owners. The app connects to <em>your own</em> Chery acco
 
 <section id="hu">
 <h2>Adatkezelési tájékoztató (magyar)</h2>
-<div class="note"><strong>Nem hivatalos alkalmazás.</strong> A Carmeo appot nem a Chery Automobile Co., Ltd., a Chery Europe GmbH, az Omoda Motors Spain, S.L. (a CHERY-Europe app kiadója), az O&amp;J Automotive Netherlands B.V. és kapcsolt vállalkozásaik készítette, nem áll velük kapcsolatban, és nem is támogatják. A Chery és a modellnevek a tulajdonosaik védjegyei. Az app a <em>saját</em> Chery-fiókodhoz kapcsolódik, a nevedben.</div>
+<div class="note"><strong>Nem hivatalos alkalmazás.</strong> A Carmeo appot nem a Chery Automobile Co., Ltd., a Chery Europe GmbH, az Omoda Motors Spain, S.L. (a CHERY-Europe app kiadója), az O&amp;J Automotive Netherlands B.V. és kapcsolt vállalkozásaik készítette, nem áll velük kapcsolatban, és nem is támogatják. A Chery, az Omoda, a Jaecoo és a modellnevek a tulajdonosaik védjegyei. Az app a <em>saját</em> Chery- vagy OMODA | JAECOO-fiókodhoz kapcsolódik, a nevedben.</div>
 
 <h3>1. Adatkezelő</h3>
 <p>Pótor Zsolt magánszemély, Budapest · e-mail: <a href="mailto:support@pzstm.app">support@pzstm.app</a></p>
@@ -82,28 +85,29 @@ are trademarks of their owners. The app connects to <em>your own</em> Chery acco
 <h3>2. Milyen adatokat, miért kezelünk</h3>
 <ul>
 <li><strong>Fiók:</strong> e-mail-cím, jelszó (csak lenyomatként), opcionális név, a feltételek elfogadásának ideje; Sign in with Apple esetén az Apple által átadott e-mail-cím. Cél: fiók, bejelentkezés. Jogalap: szerződés teljesítése (GDPR 6. cikk (1) b).</li>
-<li><strong>Chery-kapcsolat:</strong> a Chery-belépés maszkolt formája, a Chery-fiók munkamenet-tokenjei és a járművezérlő PIN <strong>titkosítva</strong> (AES-256-GCM, a kulcs csak a szerveren). Az alvázszám (VIN) csak visszafejthetetlen lenyomatként. Cél: az autó adatainak lekérése és a kért parancsok végrehajtása. Jogalap: szerződés.</li>
+<li><strong>Autókapcsolat (Chery, illetve Omoda / Jaecoo):</strong> a belépés maszkolt formája, az autós fiók munkamenet-tokenjei, a járművezérlő PIN és Omoda / Jaecoo esetén a fiók országkódja <strong>titkosítva</strong> (AES-256-GCM, a kulcs csak a szerveren). Az alvázszám (VIN) csak visszafejthetetlen lenyomatként. Omoda / Jaecoo: ha a fiókod jelszavával kötöd össze az autót, a jelszót csak a belépéshez használjuk, és azonnal töröljük – <strong>soha nem tároljuk</strong>. Cél: az autó adatainak lekérése és a kért parancsok végrehajtása. Jogalap: szerződés.</li>
 <li><strong>Járműadatok:</strong> zár- és ajtóállapot, akku- és üzemanyagszint, hatótáv, kilométeróra, töltés, klíma, guminyomás, <strong>GPS-pozíció</strong>, és az ezekből képzett utak, töltés- és tankolásnapló, idővonal, értesítések, statisztikák. Jogalap: szerződés.</li>
 <li><strong>Beállítások:</strong> mentett helyek (pl. Otthon koordinátákkal), indulási idő, komfort- és szervizadatok, dokumentumlejáratok. Jogalap: szerződés.</li>
 <li><strong>Eszközadatok:</strong> értesítési tokenek (iPhone: Apple, Android: Firebase Cloud Messaging), eszköznév, véletlen widget-token (csak lenyomatként). Cél: értesítések, widgetek, Vezérlőközpont-gombok (iPhone), gyorsbeállítás-csempék (Android), Live Activity / élő értesítés. Jogalap: szerződés.</li>
 <li><strong>Tesztelés:</strong> ha tesztverzióhoz csatlakozol (Apple TestFlight vagy Google Play teszt), az Apple ID-d vagy Google-fiókod e-mail-címe (a tesztelők listáján vagy a tesztelők Google-csoportjában) és az általad küldött visszajelzés. Cél: meghívás, hozzáférés, visszajelzés kezelése. Jogalap: szerződés (te kérted a részvételt).</li>
 <li><strong>Szervernapló</strong> (VIN nélkül, maszkolt belépéssel): biztonság, hibakeresés. Jogalap: jogos érdek (6. cikk (1) f).</li>
+<li><strong>Hibajelentések</strong> (hibaüzenet, technikai nyomkövetés, app- és rendszerverzió, platform, képernyő, fiókazonosító): hibakeresés. Jogalap: jogos érdek (6. cikk (1) f). 30 nap után automatikusan törlődnek.</li>
 </ul>
 <p>Adatot <strong>nem</strong> adunk el, nincs reklám, nincs analitika vagy követés.</p>
 
 <p><strong>Más vezetők:</strong> az autó helye és útjai attól függetlenül rögzülnek, hogy ki vezeti. Ha mások is használják az autódat, tájékoztasd őket erről, vagy szüneteltesd a helyrögzítést az appban (Settings → Privacy): ilyenkor sem a hely, sem az utak kezdő- és végpontja nem kerül mentésre.</p>
 
 <h3>3. Címzettek (adatfeldolgozók)</h3>
-<p>Supabase Inc. (adatbázis, bejelentkezés – EU, AWS Írország; amerikai cég: általános szerződési feltételek), Hetzner Online GmbH (szerver, Németország), Brevo (Sendinblue SAS, levélküldés, Franciaország), Apple Inc. (iPhone: értesítések és Live Activity – az eszköztoken és az értesítés szövege –, Sign in with Apple, TestFlight-teszt – USA, DPF/SCC), Google Ireland Limited / Google LLC (Android: értesítések és élő értesítések a Firebase Cloud Messagingen át – az eszköztoken és az értesítés szövege, pl. „Car left unlocked · Home”; a Google Play terjeszti az appot és bonyolítja a tesztet – a tesztelők e-mail-címe, Google-csoporttagság; a Google-fiók és a Google Play tekintetében a Google önálló adatkezelő; Firebase Analytics nincs – EU/USA, DPF/SCC), Open-Meteo (időjárás: az autó vagy az Otthon kb. 1 km-re kerekített helye), MapTiler AG (térképcsempék, térképadatok © OpenStreetMap-közreműködők: az eszközöd közvetlenül tölti le, látja az IP-címet és a térképrészletet; Svájc, megfelelőségi határozat), a Chery Europe connected-car szolgáltatás üzemeltetője (a CHERY-Europe app kiadója az App Store szerint az Omoda Motors Spain, S.L.; Chery Europe GmbH, Németország – az adatok forrása és a parancsok címzettje; önálló adatkezelő, a saját tájékoztatója érvényes), GitHub Inc. (ennek az oldalnak a tárhelye), Cloudflare Inc. (domainnév és a support@pzstm.app címre küldött levelek továbbítása). Ha az autótípusodhoz nincs beépített kép, az app az autód képét a Chery-felhő által megadott címről tölti le, és az a szerver látja az IP-címedet.</p>
+<p>Supabase Inc. (adatbázis, bejelentkezés – EU, AWS Írország; amerikai cég: általános szerződési feltételek), Hetzner Online GmbH (szerver, amely az autós felhőkkel kommunikál, Németország), Brevo (Sendinblue SAS, levélküldés, Franciaország), Apple Inc. (iPhone: értesítések és Live Activity – az eszköztoken és az értesítés szövege –, Sign in with Apple, TestFlight-teszt – USA, DPF/SCC), Google Ireland Limited / Google LLC (Android: értesítések és élő értesítések a Firebase Cloud Messagingen át – az eszköztoken és az értesítés szövege, pl. „Car left unlocked · Home”; a Google Play terjeszti az appot és bonyolítja a tesztet – a tesztelők e-mail-címe, Google-csoporttagság; a Google-fiók és a Google Play tekintetében a Google önálló adatkezelő; Firebase Analytics nincs – EU/USA, DPF/SCC), Open-Meteo (időjárás: az autó vagy az Otthon kb. 1 km-re kerekített helye), MapTiler AG (térképcsempék, térképadatok © OpenStreetMap-közreműködők: az eszközöd közvetlenül tölti le, látja az IP-címet és a térképrészletet; Svájc, megfelelőségi határozat), a Chery Europe connected-car szolgáltatás üzemeltetője (a CHERY-Europe app kiadója az App Store szerint az Omoda Motors Spain, S.L.; Chery Europe GmbH, Németország – az adatok forrása és a parancsok címzettje; önálló adatkezelő, a saját tájékoztatója érvényes), az OMODA | JAECOO connected-car szolgáltatás európai üzemeltetője (az OMODA JAECOO app kiadója az App Store szerint az Omoda Motors Spain, S.L., Spanyolország; csak ha Omodát vagy Jaecoót kötsz össze: az adatok forrása és a parancsok címzettje; önálló adatkezelő, a saját tájékoztatója érvényes), GitHub Inc. (ennek az oldalnak a tárhelye), Cloudflare Inc. (domainnév és a support@pzstm.app címre küldött levelek továbbítása). Ha az autótípusodhoz nincs beépített kép, az app az autód képét az autós felhő által megadott címről tölti le, és az a szerver látja az IP-címedet.</p>
 
 <h3>4. Megőrzés</h3>
-<p>A fiók, az autóadatok és a naplók a törlésükig vagy a fiók törléséig (Beállítások → Account → <em>Delete account</em>) maradnak meg; a törlés azonnali és teljes. Az autó néhány percenként rögzített nyers állapotadatai (a hellyel együtt) 12 hónap után automatikusan törlődnek; az utak, töltések, tankolások és az idővonal a törlésükig maradnak. Szervernapló: legfeljebb 30 nap. Adatbázis-mentés (ha a szolgáltató készít): legfeljebb 7 nap.</p>
+<p>A fiók, az autóadatok és a naplók a törlésükig vagy a fiók törléséig (Beállítások → Account → <em>Delete account</em>) maradnak meg; a törlés azonnali és teljes. Az autó néhány percenként rögzített nyers állapotadatai (a hellyel együtt) 12 hónap után automatikusan törlődnek; az utak, töltések, tankolások és az idővonal a törlésükig maradnak. Szervernapló: legfeljebb 30 nap. Hibajelentések: 30 nap. Az autó összekötésekor beírt kód, jelszó és PIN: amint a szerver kiolvasta, törlődik (legkésőbb 1 napon belül). Adatbázis-mentés (ha a szolgáltató készít): legfeljebb 7 nap.</p>
 
 <h3>5. Jogaid</h3>
 <p>Hozzáférés, helyesbítés, törlés, adathordozhatóság (az appban: <em>Export my data</em>, <em>Delete account</em>), korlátozás, tiltakozás. Kérés: <a href="mailto:support@pzstm.app">support@pzstm.app</a>, egy hónapon belül válaszolunk. Panasz: NAIH, 1055 Budapest, Falk Miksa u. 9–11., <a href="https://naih.hu">naih.hu</a>.</p>
 
 <h3>6. Biztonság</h3>
-<p>Titkosított kapcsolat, sorszintű jogosultság az adatbázisban, titkosított Chery-tokenek és PIN, jelszólenyomat, kulcsos szerverhozzáférés, automatikus biztonsági frissítések.</p>
+<p>Titkosított kapcsolat, sorszintű jogosultság az adatbázisban, titkosított autós fiók-tokenek és PIN, jelszólenyomat, kulcsos szerverhozzáférés, automatikus biztonsági frissítések.</p>
 
 <h3>7. Gyermekek</h3>
 <p>Az app 16 év alattiaknak nem szól.</p>
