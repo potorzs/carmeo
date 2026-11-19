@@ -120,4 +120,16 @@
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/security.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/security.html"/>
 </url>
+<url>
+<loc>https://getcarmeo.app/whats-new.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/whats-new.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/whats-new.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/whats-new.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/hu/whats-new.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/whats-new.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/whats-new.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/whats-new.html"/>
+</url>
 </urlset>

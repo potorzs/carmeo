@@ -32,6 +32,8 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .btn-primary:hover{background:var(--acc2);color:var(--on-acc)}
 .btn-ghost{border-color:#2B4A54;color:var(--text)}
 .btn-ghost:hover{border-color:var(--acc2);color:var(--text)}
+.btn-lg{min-height:56px;padding:15px 28px;font-size:18px;border-radius:16px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 
 /* header */
 /* The header lies over the top of the gradient block, so the page keeps one <main> with the hero inside it. */
@@ -59,6 +61,10 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .hero h1{font-size:80px;line-height:1;font-weight:700;letter-spacing:-.03em}
 .hero h1 span{color:var(--acc2)}
 .hero .lead{font-size:20px;color:var(--soft);max-width:640px}
+.cta-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:4px}
+.hero .btn-ghost{background:rgba(6,24,32,.35);border-color:#2F7A83}
+.soon{display:inline-flex;align-items:center;gap:8px;font-size:15px;color:var(--soft)}
+.soon svg{color:var(--acc2);flex-shrink:0}
 .stores{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:4px}
 .store{display:flex;align-items:center;gap:12px;padding:10px 20px;min-height:56px;border-radius:14px;background:var(--text);color:var(--bg);text-decoration:none;text-align:left}
 .store:hover{color:var(--bg);background:#fff}
@@ -169,9 +175,16 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .faq-wrap .intro{flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:12px}
 .faq-wrap .intro p:not(.label){color:var(--sub)}
 .faq{flex:2 1 560px;min-width:0}
-.faq div{padding:22px 0;border-top:1px solid var(--card-line)}
-.faq h3{font-size:20px;font-weight:600;margin-bottom:8px}
-.faq p{color:var(--sub);font-size:16px}
+.faq details{border-top:1px solid var(--card-line)}
+.faq details:last-child{border-bottom:1px solid var(--card-line)}
+.faq summary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:16px 0;cursor:pointer;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover h3{color:#fff}
+.faq h3{font-size:19px;font-weight:600}
+.faq .pm{flex-shrink:0;color:var(--acc2);transition:transform .2s}
+.faq details[open] .pm{transform:rotate(180deg)}
+.faq details[open] .pm .v{display:none}
+.faq p{color:var(--sub);font-size:16px;padding:0 36px 22px 0;max-width:720px}
 
 /* testers, support, footer */
 .testers{border-radius:28px;padding:48px;background:var(--hi);border:1px solid var(--hi-line);display:flex;flex-direction:column;gap:28px}
@@ -228,6 +241,22 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .cta h2{font-size:30px;line-height:1.15;font-weight:700;letter-spacing:-.02em}
 .cta p{color:#BACBD2;margin-top:8px}
 
+/* what's new */
+.n-hero{display:flex;flex-direction:column;gap:18px;padding-top:40px;padding-bottom:64px;max-width:964px}
+.n-hero .label{color:var(--acc2)}
+.n-hero h1{font-size:60px;line-height:1.04;font-weight:700;letter-spacing:-.03em}
+.n-hero .lead{font-size:20px;color:var(--soft);max-width:620px}
+.nav a[aria-current=page]{color:#fff}
+.rels{list-style:none;margin:0 auto;padding:0;max-width:900px}
+.rel{display:flex;flex-wrap:wrap;gap:8px 40px;padding:32px 0;border-top:1px solid var(--card-line);scroll-margin-top:24px}
+.rel .ver{flex:0 0 200px;display:flex;flex-direction:column;align-items:flex-start;gap:6px}
+.rel h2{font-size:34px;line-height:1.1;font-weight:700;letter-spacing:-.02em}
+.rel time{color:var(--mute);font-size:15px}
+.badge{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--on-acc);background:var(--acc);border-radius:999px;padding:3px 10px}
+.rel>ul{flex:1 1 420px;min-width:0;margin:0;padding:6px 0 0;list-style:none;display:flex;flex-direction:column;gap:12px;color:var(--soft);font-size:16.5px}
+.rel>ul li{position:relative;padding-left:22px}
+.rel>ul li::before{content:"";position:absolute;left:2px;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--acc)}
+
 /* 404 */
 .nf{min-height:100vh;padding:48px 24px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center}
 .nf h1{font-size:34px;line-height:1.15;margin-top:12px}
@@ -244,7 +273,7 @@ html:not(.js) .hero-bg{padding-top:0}
   .hero h1{font-size:64px}
   .bento.r3{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
-@media (max-width:1000px){
+@media (max-width:1100px){
   .header-tools{display:flex}
   .nav .lang{display:none}
   .js .menu-btn{display:inline-flex}
@@ -278,6 +307,14 @@ html:not(.js) .hero-bg{padding-top:0}
   .hero{padding-top:28px;gap:16px}
   .hero h1{font-size:44px;line-height:1.02}
   .hero .lead{font-size:17px}
+  .cta-row{align-self:stretch;flex-direction:column}
+  .btn-lg{min-height:52px;font-size:17px}
+  .n-hero h1,.rel h2{font-size:34px}
+  .n-hero h1{font-size:38px}
+  .n-hero{padding-bottom:40px}
+  .rel{padding:24px 0}
+  .rel .ver{flex:1 1 100%;flex-direction:row;align-items:center;flex-wrap:wrap;gap:10px}
+  .faq p{padding-right:0}
   .stores{align-self:stretch;flex-direction:column}
   .store{justify-content:center}
   .checks{font-size:13px;gap:6px 16px}
