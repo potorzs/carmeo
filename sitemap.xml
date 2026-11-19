@@ -4,132 +4,231 @@
 <loc>https://getcarmeo.app/</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/features/status.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/status.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/status.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/status.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/status.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/features/status.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/status.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/status.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/status.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/status.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/features/status.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/status.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/status.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/status.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/status.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/features/remote-control.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/remote-control.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/remote-control.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/remote-control.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/remote-control.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/features/remote-control.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/remote-control.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/remote-control.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/remote-control.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/remote-control.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/features/remote-control.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/remote-control.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/remote-control.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/remote-control.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/remote-control.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/features/smart-warm-up.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/smart-warm-up.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/smart-warm-up.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/smart-warm-up.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/smart-warm-up.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/features/smart-warm-up.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/smart-warm-up.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/smart-warm-up.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/smart-warm-up.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/smart-warm-up.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/features/smart-warm-up.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/smart-warm-up.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/smart-warm-up.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/smart-warm-up.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/smart-warm-up.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/features/trips.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/trips.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/trips.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/trips.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/trips.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/features/trips.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/trips.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/trips.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/trips.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/trips.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/features/trips.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/trips.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/trips.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/trips.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/trips.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/features/charging.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/charging.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/charging.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/charging.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/charging.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/features/charging.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/charging.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/charging.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/charging.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/charging.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/features/charging.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/charging.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/charging.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/charging.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/charging.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/features/alerts.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/alerts.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/alerts.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/alerts.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/alerts.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/features/alerts.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/alerts.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/alerts.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/alerts.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/alerts.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/features/alerts.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/alerts.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/alerts.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/alerts.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/alerts.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/features/costs.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/costs.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/costs.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/costs.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/costs.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/features/costs.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/costs.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/costs.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/costs.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/costs.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/features/costs.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/costs.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/costs.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/costs.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/costs.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/features/service.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/service.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/service.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/service.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/service.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/features/service.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/service.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/service.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/service.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/service.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/features/service.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/service.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/service.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/service.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/service.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/features/security.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/security.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/security.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/security.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/security.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/features/security.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/security.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/security.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/security.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/security.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/features/security.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/features/security.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/features/security.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/features/security.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/features/security.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/whats-new.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/whats-new.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/whats-new.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/whats-new.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/whats-new.html"/>
 </url>
 <url>
 <loc>https://getcarmeo.app/hu/whats-new.html</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/whats-new.html"/>
 <xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/whats-new.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/whats-new.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/whats-new.html"/>
+</url>
+<url>
+<loc>https://getcarmeo.app/ro/whats-new.html</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://getcarmeo.app/whats-new.html"/>
+<xhtml:link rel="alternate" hreflang="hu" href="https://getcarmeo.app/hu/whats-new.html"/>
+<xhtml:link rel="alternate" hreflang="ro" href="https://getcarmeo.app/ro/whats-new.html"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://getcarmeo.app/whats-new.html"/>
 </url>
 </urlset>

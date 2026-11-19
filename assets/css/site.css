@@ -246,6 +246,7 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .n-hero .label{color:var(--acc2)}
 .n-hero h1{font-size:60px;line-height:1.04;font-weight:700;letter-spacing:-.03em}
 .n-hero .lead{font-size:20px;color:var(--soft);max-width:620px}
+.n-hero .note{font-size:15px;color:var(--mute);max-width:620px}
 .nav a[aria-current=page]{color:#fff}
 .rels{list-style:none;margin:0 auto;padding:0;max-width:900px}
 .rel{display:flex;flex-wrap:wrap;gap:8px 40px;padding:32px 0;border-top:1px solid var(--card-line);scroll-margin-top:24px}
@@ -351,4 +352,7 @@ html:not(.js) .hero-bg{padding-top:0}
   .f-sec .txt{order:-1}
   .cta{padding:28px 22px;border-radius:24px}
   .cta h2{font-size:24px}
+}
+@media (max-width:420px){
+  .tabs button{padding:0 8px;font-size:12.5px}
 }
