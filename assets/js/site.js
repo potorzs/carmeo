@@ -21,7 +21,8 @@
   // Language drop-down (phones and tablets): close on an outside tap or Escape, and not open together with the menu
   var dd = document.querySelector('.langdd');
   if (dd) {
-    document.addEventListener('click', function (e) {
+    // pointerdown, not click: iOS Safari sends no click to the document for a tap on plain text
+    document.addEventListener('pointerdown', function (e) {
       if (dd.open && !dd.contains(e.target)) dd.open = false;
     });
     document.addEventListener('keydown', function (e) {
