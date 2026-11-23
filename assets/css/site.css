@@ -51,7 +51,18 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .lang a{display:flex;align-items:center;min-height:36px;padding:0 12px;color:#D5E3E8;text-decoration:none}
 .lang a[aria-current]{background:#17454D;color:var(--text)}
 @media (min-width:1101px) and (max-width:1240px){.lang a{padding:0 9px}}   /* four languages (2026-11-23): a little more room in the header just above the mobile menu */
-@media (max-width:380px){.lang a{padding:0 8px}}   /* four languages: still on one line on the smallest phones */
+.langdd{position:relative}   /* phones and tablets: globe + code, drop-down with the language names (2026-11-23) */
+.langdd summary{list-style:none;display:flex;align-items:center;gap:6px;min-height:44px;padding:0 12px;border:1px solid #2F6068;border-radius:999px;color:#D5E3E8;font-size:13px;font-weight:600;cursor:pointer;user-select:none}
+.langdd summary::-webkit-details-marker{display:none}
+.langdd summary:hover{color:#fff}
+.langdd[open] summary{background:#17454D;color:var(--text)}
+.langdd .chev{transition:transform .15s}
+.langdd[open] .chev{transform:rotate(180deg)}
+.langdd .menu{position:absolute;right:0;top:calc(100% + 8px);z-index:10;display:flex;flex-direction:column;min-width:190px;padding:6px;background:#0B2A33;border:1px solid #2F6068;border-radius:14px;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+.langdd .menu a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;padding:0 12px;border-radius:10px;color:#D5E3E8;text-decoration:none;font-size:16px}
+.langdd .menu a:hover{background:#12333D;color:#fff}
+.langdd .menu a[aria-current]{background:#17454D;color:var(--text);font-weight:600}
+.langdd .menu a svg{color:var(--acc2);flex-shrink:0}
 .nav .btn{min-height:44px;padding:10px 18px;border-radius:12px}
 .menu-btn{display:none;width:44px;height:44px;border:1px solid #2F6068;border-radius:12px;background:transparent;color:var(--text);align-items:center;justify-content:center;cursor:pointer}
 .header-tools{display:none;align-items:center;gap:8px}

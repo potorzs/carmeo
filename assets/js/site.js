@@ -1,4 +1,4 @@
-/* Carmeo website – two small enhancements; the pages work without JavaScript too. */
+/* Carmeo website – small enhancements; the pages work without JavaScript too. */
 (function () {
   'use strict';
 
@@ -16,6 +16,24 @@
         btn.setAttribute('aria-expanded', 'false');
       }
     });
+  }
+
+  // Language drop-down (phones and tablets): close on an outside tap or Escape, and not open together with the menu
+  var dd = document.querySelector('.langdd');
+  if (dd) {
+    document.addEventListener('click', function (e) {
+      if (dd.open && !dd.contains(e.target)) dd.open = false;
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && dd.open) { dd.open = false; dd.querySelector('summary').focus(); }
+    });
+    dd.addEventListener('toggle', function () {
+      if (dd.open && nav && nav.classList.contains('open')) {
+        nav.classList.remove('open');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+    if (btn) btn.addEventListener('click', function () { dd.open = false; });
   }
 
   // Hero phone: switch between app screens
