@@ -50,6 +50,8 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .lang{display:flex;border:1px solid #2F6068;border-radius:999px;overflow:hidden;font-size:13px;font-weight:600}
 .lang a{display:flex;align-items:center;min-height:36px;padding:0 12px;color:#D5E3E8;text-decoration:none}
 .lang a[aria-current]{background:#17454D;color:var(--text)}
+@media (min-width:1101px) and (max-width:1240px){.lang a{padding:0 9px}}   /* four languages (2026-11-23): a little more room in the header just above the mobile menu */
+@media (max-width:380px){.lang a{padding:0 8px}}   /* four languages: still on one line on the smallest phones */
 .nav .btn{min-height:44px;padding:10px 18px;border-radius:12px}
 .menu-btn{display:none;width:44px;height:44px;border:1px solid #2F6068;border-radius:12px;background:transparent;color:var(--text);align-items:center;justify-content:center;cursor:pointer}
 .header-tools{display:none;align-items:center;gap:8px}
