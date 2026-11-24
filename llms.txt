@@ -1,6 +1,6 @@
 # Carmeo
 
-> Carmeo is a free, unofficial companion app for Chery, Omoda and Jaecoo owners: battery, range, locks and climate at a glance, smart warm-up, trip and charging logs, alerts and widgets – on iPhone and Android.
+> Free, unofficial app for Chery, Omoda and Jaecoo owners: battery, range, locks and climate, smart warm-up, trip and charging logs – on iPhone and Android.
 
 Unofficial app – not made, affiliated with or endorsed by Chery, Chery Europe, Omoda & Jaecoo or their affiliates. Chery, Omoda, Jaecoo and model names are trademarks of their owners.
 
