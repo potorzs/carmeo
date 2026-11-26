@@ -6,6 +6,7 @@ Unofficial app – not made, affiliated with or endorsed by Chery, Chery Europe,
 
 Website languages: Magyar (https://getcarmeo.app/hu/), English (https://getcarmeo.app/), Română (https://getcarmeo.app/ro/), Español (https://getcarmeo.app/es/).
 Contact: support@getcarmeo.app
+App Store (iPhone): https://apps.apple.com/app/carmeo/id6833120705
 Telegram channel: https://t.me/getcarmeo
 
 ## Features

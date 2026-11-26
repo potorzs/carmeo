@@ -75,6 +75,9 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .hero h1 span{color:var(--acc2)}
 .hero .lead{font-size:20px;color:var(--soft);max-width:640px}
 .cta-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:4px}
+.appstore{display:inline-flex;align-items:center;padding:4px;border-radius:12px}
+.appstore img{display:block;height:48px;width:auto}
+.appstore:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 .hero .btn-ghost{background:rgba(6,24,32,.35);border-color:#2F7A83}
 .soon{display:inline-flex;align-items:center;gap:8px;font-size:15px;color:var(--soft)}
 .soon svg{color:var(--acc2);flex-shrink:0}
@@ -323,6 +326,7 @@ html:not(.js) .hero-bg{padding-top:0}
   .hero h1{font-size:44px;line-height:1.02}
   .hero .lead{font-size:17px}
   .cta-row{align-self:stretch;flex-direction:column}
+  .cta-row .appstore{align-self:center}
   .btn-lg{min-height:52px;font-size:17px}
   .n-hero h1,.rel h2{font-size:34px}
   .n-hero h1{font-size:38px}
