@@ -77,6 +77,9 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .cta-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:4px}
 .appstore{display:inline-flex;align-items:center;padding:4px;border-radius:12px}
 .appstore img{display:block;height:48px;width:auto}
+.btn-lg.two{padding-top:8px;padding-bottom:8px;text-align:left}
+.btn.two span{display:flex;flex-direction:column;line-height:1.2}
+.btn.two small{font-size:13px;font-weight:500;opacity:.75}
 .appstore:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 .hero .btn-ghost{background:rgba(6,24,32,.35);border-color:#2F7A83}
 .soon{display:inline-flex;align-items:center;gap:8px;font-size:15px;color:var(--soft)}
