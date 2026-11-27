@@ -50,7 +50,7 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .lang{display:flex;border:1px solid #2F6068;border-radius:999px;overflow:hidden;font-size:13px;font-weight:600}
 .lang a{display:flex;align-items:center;min-height:36px;padding:0 12px;color:#D5E3E8;text-decoration:none}
 .lang a[aria-current]{background:#17454D;color:var(--text)}
-@media (min-width:1101px) and (max-width:1240px){.lang a{padding:0 9px}}   /* four languages (2026-11-23): a little more room in the header just above the mobile menu */
+@media (min-width:1101px) and (max-width:1240px){.lang a{padding:0 9px}.nav{gap:8px 18px}}   /* 2026-11-27: + the Donate link – the Hungarian menu fits the row again */   /* four languages (2026-11-23): a little more room in the header just above the mobile menu */
 .langdd{position:relative}   /* phones and tablets: globe + code, drop-down with the language names (2026-11-23) */
 .langdd summary{list-style:none;display:flex;align-items:center;gap:6px;min-height:44px;padding:0 12px;border:1px solid #2F6068;border-radius:999px;color:#D5E3E8;font-size:13px;font-weight:600;cursor:pointer;user-select:none}
 .langdd summary::-webkit-details-marker{display:none}
