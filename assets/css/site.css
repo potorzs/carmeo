@@ -77,6 +77,10 @@ h1,h2,h3{font-family:var(--head);text-wrap:balance}
 .cta-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:4px}
 .appstore{display:inline-flex;align-items:center;padding:4px;border-radius:12px}
 .appstore img{display:block;height:48px;width:auto}
+.badges{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px}
+.cta .badges{justify-content:flex-start}
+@media (max-width:420px){.badges .appstore{padding:0}}   /* the Hungarian App Store badge (181 px) + Google Play (162 px) side by side on a 390 px phone */
+.rel .relnote{font-size:13px;color:var(--mute);line-height:1.3}
 .btn-lg.two{padding-top:8px;padding-bottom:8px;text-align:left}
 .btn.two span{display:flex;flex-direction:column;line-height:1.2}
 .btn.two small{font-size:13px;font-weight:500;opacity:.75}
